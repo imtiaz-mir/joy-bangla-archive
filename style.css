@@ -1,0 +1,61 @@
+
+
+header{
+    border-bottom: .3px solid rgb(209, 209, 209);
+}
+
+.cover{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+
+.carousel img{
+    height: 300px;
+}
+
+.navbar-nav li{
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+p{
+    font-family: "Noto Serif Bengali", serif;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    width: 180px;
+    height: 180px;
+    box-shadow:2px 2px 3px 2px #d6d6d6;
+    margin: 10px 40px 20px 10px;
+    transition: all 500ms;
+}
+
+.content:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.content a{
+    text-decoration: none;
+}
+
+
+footer{
+    text-align: center;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: black;
+}
+
