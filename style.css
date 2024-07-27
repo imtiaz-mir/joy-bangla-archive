@@ -33,6 +33,22 @@ p{
     justify-content: center;
 }
 
+
+
+@media all and (min-width: 100%){
+    .main-content{
+        flex: 4;
+    }
+}
+
+@media all and (min-width: 600px){
+    .content{
+        flex: 1;
+    }
+}
+
+
+
 .content{
     width: 180px;
     height: 180px;
