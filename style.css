@@ -48,9 +48,6 @@ p{
     }
 }
 
-*/
-
-
 .content{
     width: 180px;
     height: 180px;
@@ -58,6 +55,16 @@ p{
     margin: 5px;
     transition: all 500ms;
 }
+
+*/
+
+
+.content{
+    box-shadow:2px 2px 3px 2px #d6d6d6;
+    margin: 5px;
+    transition: all 500ms;
+}
+
 
 .content img{
     width: 180px;
