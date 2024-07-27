@@ -27,34 +27,41 @@ p{
     font-family: "Noto Serif Bengali", serif;
 }
 
+
 .main-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/*
 
-
-@media all and (min-width: 100%){
+@media all and (max-width: 80%){
     .main-content{
         flex: 4;
     }
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width){
     .content{
-        flex: 1;
+        flex: 2;
     }
 }
 
+*/
 
 
 .content{
     width: 180px;
     height: 180px;
     box-shadow:2px 2px 3px 2px #d6d6d6;
-    margin: 10px 40px 20px 10px;
+    margin: 10px 30px 20px 30px;
     transition: all 500ms;
+}
+
+.content img{
+    width: 180px;
+    height: 115px;
 }
 
 .content:hover{
