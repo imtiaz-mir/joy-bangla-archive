@@ -5,10 +5,10 @@
     width: 40px;
     height: 40px;
     font-size: 25px;
-
-    /* background-color: #1c1c1c;
-    color: white; */
-
+    background-color:white;
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-left: 7px;
     border: none;
     cursor: pointer;
     position: absolute;
@@ -47,6 +47,7 @@
   .active .search-btn {
     transform: translate(210px, 2px) scale(0.8);
     background-color: transparent;
+    
   }
   
   .active .close-btn {

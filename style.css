@@ -1,4 +1,6 @@
-
+body{
+    background-image: url(images/background-01.png);
+}
 
 header{
     border-bottom: .3px solid rgb(209, 209, 209);
@@ -83,7 +85,7 @@ footer a:link{
 }
 
 
-
+/* 
 .searchBox{
     position: absolute;
     right: -100%;
@@ -139,4 +141,4 @@ footer a:link{
     visibility: visible;
     transition: 0.5s;
     scale: 1;
-}
+} */
