@@ -1,6 +1,6 @@
-body{
+/* body{
     background-image: url(images/background-01.png);
-}
+} */
 
 header{
     border-bottom: .3px solid rgb(209, 209, 209);
@@ -16,7 +16,6 @@ h2{
     font-family: "Hind Siliguri", sans-serif;
 }
 
-
 .carousel img{
     height: 300px;
 }
@@ -28,6 +27,88 @@ h2{
 p{
     font-family: "Noto Serif Bengali", serif;
 }
+
+
+/* Blog Container */
+
+.blog-container {
+    position:sticky; 
+    /* top: 0; 
+    left: 0; 
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 4px 8px -4px rgba(0, 0, 0, 0.3); */
+    
+}
+    
+.blog-container .title {
+    position: absolute; 
+    background: #ffffff; 
+    height: 100%; 
+    display: flex; 
+    align-items:center; 
+    padding: 0px 5px 0px 5px; 
+    color: Iwhite; 
+    font-weight: bold;
+    z-index: 200;
+    font-family: "Noto Serif Bengali", serif;
+}
+
+.blog-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.blog-container ul li {
+    font-family: "Noto Serif Bengali", serif;
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 35px;
+    color: #494949;
+    position: relative;
+}
+
+
+.blog-container ul li a{
+    text-decoration: none;
+    padding: 0 2%;
+    color: black;
+}
+
+.blog-container ul li a:hover{
+    color: red;
+}
+
+
+.blog-container ul li::after { 
+    content:"";
+    width: 1px;
+    height: 100%;
+    background:#b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blog-container ul li:last-child::after {
+    display: none;
+    }
+
+ @keyframes scroll { 
+    from {
+        transform: translateX(10%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+    }
+}
+
+
+/* MAIN CONTENT CSS */
 
 
 .main-content{
