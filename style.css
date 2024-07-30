@@ -115,6 +115,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.625rem;
 }
 
 /*
@@ -137,7 +138,7 @@ p{
     width: 180px;
     height: 180px;
     box-shadow:2px 2px 3px 2px #d6d6d6;
-    margin: 10px 30px 20px 30px ;
+   
     transition: all 500ms;
 }
 
