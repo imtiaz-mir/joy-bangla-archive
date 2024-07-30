@@ -1,0 +1,124 @@
+
+
+
+/* COVER DIV */
+
+.cover{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    }
+
+h2{
+    font-family: "Hind Siliguri", sans-serif;
+    }
+
+/* .carousel img{
+    height: 300px;
+    } */
+
+
+/* IMPORTANT BLOGS */
+
+.blog-container {
+    position:sticky;
+    }
+    
+.blog-container .title {
+    position: absolute; 
+    background: #ffffff; 
+    height: 100%; 
+    display: flex; 
+    align-items:center; 
+    padding: 0px 8px 0px 5px; 
+    color: Iwhite; 
+    font-weight: bold;
+    z-index: 1;
+    font-family: "Noto Serif Bengali", serif;
+    }
+
+.blog-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    }
+
+.blog-container ul li {
+    font-family: "Noto Serif Bengali", serif;
+    white-space: nowrap;
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 35px;
+    color: #494949;
+    position: relative;
+    }
+
+
+.blog-container ul li a{
+    text-decoration: none;
+    padding: 0 2%;
+    color: black;
+    }
+
+.blog-container ul li a:hover{
+    color: red;
+    }
+
+
+.blog-container ul li::after { 
+    content:"";
+    width: 1px;
+    height: 100%;
+    background:#b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+
+.blog-container ul li:last-child::after {
+    display: none;
+    }
+
+ @keyframes scroll { 
+    from {
+        transform: translateX(10%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+    }
+    }
+
+
+/* MAIN CONTENT CSS */
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem 0.625rem;
+    }
+
+
+.content{
+    width: 180px;
+    height: 180px;
+    box-shadow:2px 2px 3px 2px #d6d6d6;
+    transition: all 500ms;
+    }
+
+
+.content img{
+    width: 180px;
+    height: 115px;
+    }
+
+.content:hover{
+    transform: scale(1.1, 1.1);
+    }
+
+.content a{
+    text-decoration: none;
+    }
+
+

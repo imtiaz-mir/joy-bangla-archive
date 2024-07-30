@@ -8,8 +8,8 @@
     
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-home.css">
 
-    <link rel="stylesheet" href="style2.css">
 <!-- 
     <link rel="stylesheet" href="style3.css"> -->
 
@@ -39,81 +39,44 @@
 
   <body>
     <!-- Header -->
-     <header>
+     <header class="header">
         <nav class="navbar navbar-expand-lg  container">
             <div class="container-fluid">
 
-            <!-- Navbar Logo -->
-            <a class="navbar-brand" href="index.html"><img src="images/nav-logo-01.png" alt="JOY BANGLA ARCHIVE" height="40px" width="80px%"></a>
-            <!-- End Navbar Logo -->
+                <!-- Navbar Logo -->
+                <a class="navbar-brand" href="index.html"><img src="images/nav-logo-01.png" alt="JOY BANGLA ARCHIVE" height="40px" width="80px%"></a>
+                <!-- End Navbar Logo -->
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">মূলপাতা</a></li>
-     
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        আওয়ামী জাহিলিয়াত
-                    </a>
-                    <ul class="dropdown-menu" style="font-family: 'Noto Serif Bengali', serif !important;">
-                      <li><a class="dropdown-item" href="#">গণহত্যা</a></li>
-                      <li><a class="dropdown-item" href="#">খুন-ধর্ষণ</a></li>
-                      <!-- <li><hr class="dropdown-divider"></li> -->
-                      <li><a class="dropdown-item" href="#">লুটপাট-দুর্নীতি</a></li>
-                      <li><a class="dropdown-item" href="#">অবৈধ নির্বাচননামা</a></li>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">মূলপাতা</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">আওয়ামী জাহিলিয়াত</a>
+                            <ul class="dropdown-menu" style="font-family: 'Noto Serif Bengali', serif !important;">
+                                <li><a class="dropdown-item" href="genoside.html">গণহত্যা</a></li>
+                                <li><a class="dropdown-item" href="#">খুন-ধর্ষণ</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="#">লুটপাট-দুর্নীতি</a></li>
+                                <li><a class="dropdown-item" href="#">অবৈধ নির্বাচননামা</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">ব্লগ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">আর্কাইভ সম্পর্কে</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">যোগাযোগ</a></li>
                     </ul>
-                  </li>
-
-                <li class="nav-item"><a class="nav-link" href="#">ব্লগ</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">আর্কাইভ সম্পর্কে</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">যোগাযোগ</a></li>
-                </ul>
-
-        <!--    <div class="search">
-                    <span class="icon">
-                        <ion-icon name="search-outline" class="searchBtn"></ion-icon>
-                        <ion-icon name="close-outline" class="closeBtn"></ion-icon>
-                        <ion-icon name="globe-outline"></ion-icon>
-                    </span>
-                </div>
-
-        -->    
-
-                <!-- <div class="search">
-                    <input type="text" class="search-box" placeholder="Search...">
-                    <button class="search-btn"><i class="ph-magnifying-glass-bold"></i></button>
-                    <button class="close-btn"><i class="ph-x-bold"></i></button>
-                </div> -->
-
-                
-                <div class="search">
-                    <input type="text" class="search-box" placeholder="Search...">
-                    <button class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
-                    <button class="close-btn"><ion-icon name="close-outline"></ion-icon></button>
                     
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="Search...">
+                        <button class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+                        <button class="close-btn"><ion-icon name="close-outline"></ion-icon></button>
+                    </div>
                 </div>
-                
-            </div>
             </div>
         </nav>
-                <!-- <div class="searchBox">
-                    <input type="text" placeholder="Search">
-
-                </div> -->
-
-        <!--    <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-        -->  
-                
-            </div>
-            </div>
         
     </header>
 
@@ -170,7 +133,8 @@
       </section>
                    -->
 
-    <!-- Blog -->
+
+    <!-- IMPORTANT BLOGS -->
     <section class="container">
         <div class="blog-container">
             <div class="title">
@@ -183,15 +147,15 @@
                         <li style=""><a href="about.html">যেসব বয়ানে ভর করে আওয়ামী লীগ গণহত্যাকে বৈধ করতে চেয়েছে</a></li>
                         <li><a href="about.html">আইয়ামে জাহিলিয়াত ও আওয়ামী জাহিলিয়াত</a></li>
                         <li><a href="about.html">শব্দের অর্থ বদলায়, বাক্যের ব্যবহার বদলায়</a></li>
-                    </ul>
+                    </ul>  
                 </marquee>
             </div>
-
-    
         </div>
      </section> <hr> <br>
      
-    <!-- Main Content -->
+
+    
+    <!-- MAIN CONTENT -->
     
     <!-- গণহত্যা -->
      <div>
@@ -428,24 +392,13 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
-    <!-- <script>
-        Let searchBtn = document.querySelector('.searchBtn')
-        Let closeBtn = document.querySelector('.closeBtn');
-        Let searchBox = document.querySelector('.searchBox');
-        
-        searchBtn.onclick = function(){
-            searchBox.classList.add('active');
-            closeBtn.classList.add('active');
-            searchBtn.classList.add('active');
-        }
-
-        closeBtn.onclick = function(){
-            searchBox.classList.remove('active');
-            closeBtn.classList.remove('active');
-            searchBtn.classList.remove('active');
-        }
-    </script> -->
 
   </body>
 </html>
