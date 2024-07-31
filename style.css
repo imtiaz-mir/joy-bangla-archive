@@ -1,5 +1,11 @@
 /* HEADER */
 
+@media (min-width: 640px) {
+  .container {
+      max-width: 640px;
+  }
+}
+
 .header{
     border-bottom: .3px solid rgb(209, 209, 209);
     position: sticky;
