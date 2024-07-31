@@ -93,11 +93,10 @@ h2{
 /* MAIN CONTENT CSS */
 
 .main-content{
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem 1rem;
+    gap: 1.2rem 1rem;
     }
 
 
@@ -111,7 +110,7 @@ h2{
 
 .content img{
     width: 156px;
-    height: 100px;
+    height: 102px;
     }
 
 .content:hover{
