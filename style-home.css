@@ -94,7 +94,7 @@ h2{
 
 .main-content{
     max-width: 100%;
-    min-width: 540px;
+    min-width: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
