@@ -103,7 +103,7 @@ h2{
 
 
 .content{
-    width: 150px;
+    width: 156px;
     height: 180px;
     box-shadow:2px 2px 3px 2px #d6d6d6;
     transition: all 500ms;
@@ -111,8 +111,8 @@ h2{
 
 
 .content img{
-    width: 150px;
-    height: 96px;
+    width: 156px;
+    height: 100px;
     }
 
 .content:hover{
