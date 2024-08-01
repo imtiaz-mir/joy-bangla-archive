@@ -103,7 +103,7 @@ h2{
 .content{
     width: 156px;
     height: 160px;
-    box-shadow:2px 2px 3px 2px #d6d6d6;
+    box-shadow:2px .5px 100px 2px #d6d6d6;
     transition: all 500ms;
     }
 

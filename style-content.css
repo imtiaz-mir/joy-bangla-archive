@@ -1,0 +1,31 @@
+/* MAIN CONTENT CSS */
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem 1rem;
+    }
+
+
+.content{
+    width: 156px;
+    height: 160px;
+    box-shadow:2px .5px 100px 2px #d6d6d6;
+    transition: all 500ms;
+    }
+
+
+.content img{
+    width: 156px;
+    height: 102px;
+    }
+
+.content:hover{
+    transform: scale(1.1, 1.1);
+    }
+
+.content a{
+    text-decoration: none;
+    }
+
