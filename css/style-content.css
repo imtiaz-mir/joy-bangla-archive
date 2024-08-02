@@ -1,0 +1,79 @@
+
+
+.content-div{
+            margin-top: 30px;
+            }
+        
+        h6{
+            font-family: "Noto Serif Bengali", serif;
+            }
+
+        .genocide-description p{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: "Noto Serif Bengali", serif;
+            font-size: 14px;;
+            text-align: center;
+            }
+
+        .main-content{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 25px;
+            justify-content: center;
+            gap: 1.5rem 0.625rem;
+            
+            
+            }
+
+        .content{
+            width: 180px;
+            height: 180px;
+            box-shadow:2px 2px 3px 2px #d6d6d6;
+            /* box-shadow:2px .5px 100px 2px #d6d6d6; */
+            transition: all 500ms;
+            }
+
+
+        .content img{
+            width: 180px;
+            height: 115px;
+            }
+
+        .content:hover{
+            transform: scale(1.1, 1.1);
+            }
+
+        .content a{
+            text-decoration: none;
+            }
+
+        span i{
+            font-size: 10px;
+            text-align: center;
+            opacity: 90%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        a{
+            text-decoration:none
+            }
+
+        a:hover{
+            color: red;
+            }
+
+        /* Read More Css */
+
+        /* .read-more-btn{
+            color: #0984e3;
+            margin-left: 40%;
+            }
+
+        .read-more-text{
+            display: none;
+            }
+
+        .read-more-text--show{
+            display: inline;
+            } */

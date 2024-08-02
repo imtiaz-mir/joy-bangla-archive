@@ -7,10 +7,14 @@
     <title>Joy Bangla Archive - Genocide</title> 
     
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- CONTENT CSS -->
+    <link rel="stylesheet" href="../css/style-content.css">
+
 
     <!-- JavaScript -->
-    <script src="script.js" defer></script>
+    <script src="../JS/script.js" defer></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
 
     <!-- Bootstrap CSS -->
@@ -31,87 +35,6 @@
      <!-- icofont CSS -->
     <link rel="stylesheet" href="css/icofont.css">
 
-    <!-- THIS IS for GENOCIDE CSS Particularly -->
-    <style> 
-        .genocide-div{
-            margin-top: 30px;
-            }
-        
-        h6{
-            font-family: "Noto Serif Bengali", serif;
-            }
-
-        .genocide-description p{
-            padding-left: 20px;
-            padding-right: 20px;
-            font-family: "Noto Serif Bengali", serif;
-            font-size: 14px;;
-            text-align: center;
-            }
-
-        .main-content{
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 25px;
-            justify-content: center;
-            gap: 1.5rem 0.625rem;
-            
-            
-            }
-
-        .content{
-            width: 180px;
-            height: 180px;
-            /* box-shadow:2px 2px 3px 2px #d6d6d6; */
-            box-shadow:2px .5px 100px 2px #d6d6d6;
-            transition: all 500ms;
-            }
-
-
-        .content img{
-            width: 180px;
-            height: 115px;
-            }
-
-        .content:hover{
-            transform: scale(1.1, 1.1);
-            }
-
-        .content a{
-            text-decoration: none;
-            }
-
-        span i{
-            font-size: 10px;
-            text-align: center;
-            opacity: 90%;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-
-        a{
-            text-decoration:none
-            }
-
-        a:hover{
-            color: red;
-            }
-
-        /* Read More Css */
-
-        /* .read-more-btn{
-            color: #0984e3;
-            margin-left: 40%;
-            }
-
-        .read-more-text{
-            display: none;
-            }
-
-        .read-more-text--show{
-            display: inline;
-            } */
-
-    </style>   
   </head>
 
 
@@ -122,7 +45,7 @@
             <div class="container-fluid">
 
                 <!-- Navbar Logo -->
-                <a class="navbar-brand" href="index.html"><img src="images/nav-logo-01.png" alt="JOY BANGLA ARCHIVE" height="40px" width="80px"></a>
+                <a class="navbar-brand" href="index.html"><img src="../images/nav-logo-01.png" alt="JOY BANGLA ARCHIVE" height="40px" width="80px"></a>
                 <!-- End Navbar Logo -->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -160,10 +83,10 @@
     </header>
 
     <!-- গণহত্যা -->
-    <section class="genocide-div">
+    <section class="content-div">
         <div>
             <h4 style="font-family: 'Hind Siliguri', sans-serif; text-align: center;">আওয়ামী লীগের গণহত্যা</h4>
-            <img style="width: 100px; display: block; margin: auto;" src="images/content-photos/underline-red-01.png" alt="">
+            <img style="width: 100px; display: block; margin: auto;" src="../images/underline-red-01.png" alt="">
         </div> <br>
 
 <!-- 
@@ -203,16 +126,16 @@
         </div>
     </section>
 
-    <section class="main-content container flex flex-wrap gap-2.5 md:justify-center">
+    <section class="main-content  flex flex-wrap gap-2.5 md:justify-center">
         <div class="content">
             <a class="" href="#"><span class="thumb-info thumb-info-no-zoom thumb-info-custom mb-xl center">
             <span class="thumb-info-side-image-wrapper p-none">
-                <img src="images/content-photos/julay-genocige.jpg" class="img-responsive" alt="">
+                <img src="../images/julay-genocige.jpg" class="img-responsive" alt="">
             </span>
 
             <span class="thumb-info-caption">
                 <span class="thumb-info-caption-text">
-                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 18px; color: black; text-align: center; padding-top: 15px;">ছাত্র-গণহত্যা<p style="font-size: smaller;">(২০২৪ সাল)</p></h6>
+                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 16px; color: black; text-align: center; padding-top: 15px;">ছাত্র-গণহত্যা<p style="font-size: smaller;">(২০২৪ সাল)</p></h6>
                     
                 </span>
             </span>
@@ -222,12 +145,12 @@
         <div class="content">
             <a class="" href="#"><span class="thumb-info thumb-info-no-zoom thumb-info-custom mb-xl center">
             <span class="thumb-info-side-image-wrapper p-none">
-                <img src="images/content-photos/Sapla-tragedy.jpg" class="img-responsive" alt="">
+                <img src="../images/Sapla-tragedy.jpg" class="img-responsive" alt="">
             </span>
 
             <span class="thumb-info-caption">
                 <span class="thumb-info-caption-text">
-                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 15px; color: black; text-align: center; padding-top: 17px;">শাপলায় মুসলিম-গণহত্যা<p style="font-size: smaller;">(২০১৩ সাল)</p></h6>
+                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 14px; color: black; text-align: center; padding-top: 15px;">শাপলায় মুসলিম-গণহত্যা<p style="font-size: smaller;">(২০১৩ সাল)</p></h6>
                     
                 </span>
             </span>
@@ -237,19 +160,19 @@
         <div class="content">
             <a class="" href="#"><span class="thumb-info thumb-info-no-zoom thumb-info-custom mb-xl center">
             <span class="thumb-info-side-image-wrapper p-none">
-                <img src="images/content-photos/bdr-bidroho.jpg" class="img-responsive" alt="">
+                <img src="../images/bdr-bidroho.jpg" class="img-responsive" alt="">
             </span>
 
             <span class="thumb-info-caption">
                 <span class="thumb-info-caption-text">
-                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 15px; color: black; text-align: center; padding-top: 17px;">পিলখানা হত্যাকাণ্ড <p style="font-size: smaller;">(২০০৯ সাল)</p></h6>
+                    <h6 class="mb-xs mt-xs efnt" style="font-family: 'Hind Siliguri', sans-serif; font-size: 14px; color: black; text-align: center; padding-top: 15px;">পিলখানা হত্যাকাণ্ড <p style="font-size: smaller;">(২০০৯ সাল)</p></h6>
                     
                 </span>
             </span>
             </span></a>
         </div>
 
-    </section> <br> <br>
+    </section> <br>
 
 
     <!-- SEE ALL CONTENT -->
@@ -294,7 +217,7 @@
     </script>
 
     <!-- Collaosible SEE More JS -->
-    <script src="read-more-script.js"></script>
+    <script src="../JS/read-more-script.js"></script>
 
   </body>
 </html>
