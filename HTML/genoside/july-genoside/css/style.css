@@ -1,0 +1,104 @@
+/* HEADER */
+
+body{
+  max-width: 80%%;
+  min-width: 360px;
+}
+
+.header{
+    border-bottom: .3px solid rgb(209, 209, 209);
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    z-index: 1;
+    }
+
+.navbar-nav li{
+    font-family: "Hind Siliguri", sans-serif;
+    margin-left: 10px;
+    }
+
+p{
+    font-family: "Noto Serif Bengali", serif;
+    }
+
+
+/* THIS IS SEARCH BOX CSS */
+  
+.search-btn, .close-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color:white;
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-left: 7px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    transition: all 0.25s ease;
+   }
+  
+  .close-btn {
+    color: rgb(255, 83, 26);
+    z-index: -1;
+   }
+  
+  .search-box {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    
+    border-radius: 25px;
+    background-color:ghostwhite);
+    
+    /* background-color: black;
+    color: white; */
+    
+    outline: none;
+    border: none;
+    transition: width 0.25s ease;
+   }
+  
+  .search {
+    display: flex;
+    align-items: center;
+   }
+  
+  .active .search-box {
+    width: 250px;
+   }
+  
+  .active .search-btn {
+    transform: translate(210px, 2px) scale(0.8);
+    background-color: transparent;
+    
+   }
+  
+  .active .close-btn {
+    z-index: 0;
+    transform: translate(250px, 2px);
+    background-color: transparent;
+   }
+  
+
+
+   /* TNOTE: The main div's css is on another Style CSS "style-home.css"  */
+   
+
+
+   /* FOOTER ITEM */
+
+footer{
+    text-align: center;
+    }
+
+footer a:link{
+    text-decoration: none;
+    color: black;
+    }
